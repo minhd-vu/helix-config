@@ -6,3 +6,8 @@ cursorline = true
 
 [editor.cursor-shape]
 insert = "bar"
+normal = "block"
+select = "underline"
+
+[keys.insert]
+j = { j = "normal_mode" }
